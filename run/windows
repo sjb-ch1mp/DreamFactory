@@ -1,0 +1,5 @@
+-Djava.library.path=../bin
+-cp .;../lib/jackson-core-2.13.4.jar;../lib/jackson-annotations-2.13.4.jar;../lib/jackson-databind-2.13.4.jar
+--module-path ../lib
+--add-modules javafx.base,javafx.graphics,javafx.media,javafx.controls
+DreamFactory

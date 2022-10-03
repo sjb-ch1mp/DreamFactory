@@ -1,0 +1,32 @@
+-D build
+-cp src:lib/jackson-core-2.13.4.jar:lib/jackson-annotations-2.13.4.jar:lib/jackson-databind-2.13.4.jar
+--module-path lib
+--add-modules javafx.base,javafx.graphics,javafx.media,javafx.controls
+src/DreamFactory.java
+src/GameEngine/Exceptions/CommandNotLegalInThisModeException.java
+src/GameEngine/Exceptions/NoSavedGameException.java
+src/GameEngine/Exceptions/NoSuchCommandException.java
+src/GameEngine/Exceptions/NoSuchItemException.java
+src/GameEngine/Exceptions/NoValidTargetException.java
+src/GameEngine/Action.java
+src/GameEngine/Arena.java
+src/GameEngine/CommandParser.java
+src/GameEngine/Consequence.java
+src/GameEngine/DungeonMaster.java
+src/GameEngine/GameEngine.java
+src/GameEngine/GameHistory.java
+src/GameEngine/GameState.java
+src/SaveLoad/SaveNLoad.java
+src/Story/Command.java
+src/Story/CommandTarget.java
+src/Story/Container.java
+src/Story/Direction.java
+src/Story/Enemy.java
+src/Story/Hero.java
+src/Story/Item.java
+src/Story/Mode.java
+src/Story/NonPlayerCharacter.java
+src/Story/Passage.java
+src/Story/Response.java
+src/Story/Room.java
+src/Story/Story.java

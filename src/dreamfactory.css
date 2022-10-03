@@ -1,0 +1,100 @@
+.game-portal-main{
+    -fx-background-color: black;
+}
+
+.story-name{
+    -fx-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -fx-text-fill: #FF2700;
+    -fx-font-size: xx-large;
+    -fx-font-weight: bolder;
+    -fx-padding: 5px;
+}
+
+.stat-portal{
+}
+
+.stat-label{
+    -fx-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    -fx-text-fill: #FF2700;
+    -fx-font-weight: bold;
+    -fx-font-size: larger;
+}
+
+.stat-indicator{
+    -fx-text-fill: white;
+    -fx-font-size: larger;
+    -fx-font-weight: bold;
+    -fx-font-family:'Courier New', Courier, monospace;
+}
+
+.stat-divider{
+    -fx-padding: 0 25 0 25;
+}
+
+.story-portal{
+    -fx-border-color: darkred;
+    -fx-border-width: 5px;
+    -fx-border-style: solid none none none;
+    -fx-background-color: black;
+}
+
+.story-viewer {
+    -fx-border-color: darkred;
+    -fx-border-width: 2;
+    -fx-border-style: solid none solid none;
+    -fx-font-family:'Courier New', Courier, monospace;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-border-radius: 0;
+
+    /*Adapted from: https://stackoverflow.com/questions/44169273/javafx-unwanted-white-corner-textarea*/
+    -fx-control-inner-background: black;
+    -fx-text-box-border: black;
+    -fx-faint-focus-color: black;
+    -fx-focus-color: black;
+    -fx-prompt-text-fill: black;
+
+    /*Copied from: https://community.oracle.com/tech/developers/discussion/2377418/removing-the-border-and-focus-indicators-from-text-controls*/
+    -fx-background-color: -fx-focus-color, -fx-text-box-border, -fx-control-inner-background;
+    -fx-background-insets: -0.4, 1, 2;
+    -fx-background-radius: 3.4, 2, 2;
+}
+
+.story-viewer:focused{
+    -fx-focus-color: black;
+
+    /*Adapted from: https://stackoverflow.com/questions/44169273/javafx-unwanted-white-corner-textarea*/
+    -fx-control-inner-background: black;
+    -fx-text-box-border: black;
+    -fx-faint-focus-color: black;
+    -fx-focus-color: black;
+    -fx-prompt-text-fill: black;
+
+    /*Copied from: https://community.oracle.com/tech/developers/discussion/2377418/removing-the-border-and-focus-indicators-from-text-controls*/
+    -fx-background-color: -fx-focus-color, -fx-text-box-border, -fx-control-inner-background;
+    -fx-background-insets: -0.4, 1, 2;
+    -fx-background-radius: 3.4, 2, 2;
+}
+
+.story-viewer .content{
+    -fx-background-radius: 0;
+    -fx-background-color: black;
+    -fx-padding: 2;
+    -fx-control-inner-background: black;
+    -fx-text-box-border: black;
+    -fx-faint-focus-color: black;
+    -fx-focus-color: black;
+    -fx-prompt-text-fill: black;
+}
+
+.command-input{
+    -fx-font-family:'Courier New', Courier, monospace;
+    -fx-text-fill: white;
+    -fx-background-color: black;
+    -fx-font-size: larger;
+    -fx-font-weight: bolder;
+
+}
+
+.command-portal{
+}
