@@ -11,9 +11,7 @@ The Curse of Whitcombe Manor is a Lovecraft-inspired text-based adventure. You a
 Pull this repo and create a folder called `lib` at its root directory. Download the following dependencies: 
 
  - [OpenJFX 19](https://download2.gluonhq.com/openjfx/19/openjfx-19_linux-x64_bin-sdk.zip)
- - [Jackson Core 2.13.4](https://jar-download.com/artifacts/com.fasterxml.jackson.core/jackson-core)
- - [Jackson Databind 2.13.4](https://jar-download.com/artifacts/com.fasterxml.jackson.core/jackson-databind)
- - [Jackson Annotations 2.13.4](https://jar-download.com/artifacts/com.fasterxml.jackson.core/jackson-annotations)
+ - [Jackson Core/Databind/Annotations 2.13.4](https://jar-download.com/artifacts/com.fasterxml.jackson.core/jackson-databind)
 
 Into the `lib` folder, copy all the Jackson JAR files, and all the files within the `lib` folder in OpenJFX 19. 
 
@@ -34,9 +32,7 @@ If the compilation was successful, you can now run the game by navigating to the
 Pull this repo and create two folders, `lib` and `bin` at its root directory. Download the following dependencies.
 
  - [OpenJFX 19](https://download2.gluonhq.com/openjfx/19/openjfx-19_windows-x64_bin-sdk.zip)
- - [Jackson Core 2.13.4](https://jar-download.com/artifacts/com.fasterxml.jackson.core/jackson-core)
- - [Jackson Databind 2.13.4](https://jar-download.com/artifacts/com.fasterxml.jackson.core/jackson-databind)
- - [Jackson Annotations 2.13.4](https://jar-download.com/artifacts/com.fasterxml.jackson.core/jackson-annotations)
+ - [Jackson Core/Databind/Annotations 2.13.4](https://jar-download.com/artifacts/com.fasterxml.jackson.core/jackson-databind)
 
 In the `lib` folder, copy the JAR files for Jackson Core, Jackson Databind, Jackson Annotations, and all the files from the `lib` folder in OpenJFX 19. In the `bin` folder, copy all the files from the `bin` folder in OpenJFX 19. 
 
