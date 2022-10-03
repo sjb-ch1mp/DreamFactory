@@ -23,9 +23,9 @@ Once you've set up all the dependencies, navigate to the root directory of this 
 
 #### Run
 
-If the compilation was successful, you can now run the game by running the following command (**This needs to be run from the root directory of the repo**). 
+If the compilation was successful, you can now run the game by navigating to the `build` directory and running the following command: 
 
-`cd build & java @../run/linux`
+`java @../run/linux`
 
 ### Windows
 
@@ -46,9 +46,9 @@ Once you've set up all the dependencies, navigate to the root directory of this 
 
 #### Run
 
-If the compilation was successful, you can now run the game by running the following command (**This needs to be run from the root directory of the repo**).
+If the compilation was successful, you can now run the game by navigating to the `build` directory and running the following command:
 
-`cd build & java @../run/windows`
+`java @../run/windows`
 
 ## Contributors
 
