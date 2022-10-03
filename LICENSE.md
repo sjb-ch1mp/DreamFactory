@@ -1,4 +1,4 @@
-Copyright (c) 2022 Shafin Kamal, Samuel Brookes, Yanyan Liu, Anqi Chang, Tom Nguyen, Weihua Shao
+Copyright (c) 2022 Samuel Brookes, Shafin Kamal, Yanyan Liu, Anqi Chang
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated 
 documentation files (the "Software"), to deal in the Software without restriction, including without limitation the 
