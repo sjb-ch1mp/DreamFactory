@@ -16,7 +16,7 @@ public class SaveNLoad implements Serializable{
     public static void saveGame(GameState gameState){
         try {
             // creates a file to put all game records in
-            File file = new File("src/SaveLoad/DreamFactoryRecord.txt");
+            File file = new File("res/dreamfactory.sav");
             FileOutputStream fileOutputStream = new FileOutputStream(file);
             ObjectOutputStream objectOutputStream = new ObjectOutputStream(fileOutputStream);
             objectOutputStream.writeObject(gameState);
@@ -33,7 +33,7 @@ public class SaveNLoad implements Serializable{
     public GameState loadGame(){
         try{
             // load the directory of the file where all game records are saved.
-            FileInputStream fileInputStream = new FileInputStream("src/SaveLoad/DreamFactoryRecord.txt");
+            FileInputStream fileInputStream = new FileInputStream("res/dreamfactory.sav");
             ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
             gameState = (GameState) objectInputStream.readObject();
             objectInputStream.close();
