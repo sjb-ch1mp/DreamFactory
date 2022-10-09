@@ -48,6 +48,6 @@ If the compilation was successful, you can now run the game by navigating to the
 
 ## Contributors
 
-* Shafin Kamal (`src/Story`)
-* Anqi Chang (`src/StoryParser`)
+* [Shafin Kamal](https://github.com/shafinkamal) (`src/Story`)
+* [Anqi Chang](https://github.com/anqiii-hub) (`src/StoryParser`)
 * Yanyan Liu (`src/SaveNLoad`)
